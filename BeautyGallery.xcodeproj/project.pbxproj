@@ -15,6 +15,7 @@
 		66A6088D1B46BB4400516BC0 /* BeautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A6088C1B46BB4400516BC0 /* BeautyGalleryTests.swift */; };
 		66A608981B46BB4400516BC0 /* BeautyGalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A608971B46BB4400516BC0 /* BeautyGalleryUITests.swift */; };
 		66A608A61B46D1AD00516BC0 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A608A51B46D1AD00516BC0 /* ViewControllerExtension.swift */; };
+		66A608A81B46D77500516BC0 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A608A71B46D77500516BC0 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		66A608971B46BB4400516BC0 /* BeautyGalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGalleryUITests.swift; sourceTree = "<group>"; };
 		66A608991B46BB4400516BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66A608A51B46D1AD00516BC0 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		66A608A71B46D77500516BC0 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				66A608801B46BB4400516BC0 /* LaunchScreen.storyboard */,
 				66A608831B46BB4400516BC0 /* Info.plist */,
 				66A608A51B46D1AD00516BC0 /* ViewControllerExtension.swift */,
+				66A608A71B46D77500516BC0 /* GalleryViewController.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A6087A1B46BB4400516BC0 /* ViewController.swift in Sources */,
+				66A608A81B46D77500516BC0 /* GalleryViewController.swift in Sources */,
 				66A608781B46BB4400516BC0 /* AppDelegate.swift in Sources */,
 				66A608A61B46D1AD00516BC0 /* ViewControllerExtension.swift in Sources */,
 			);

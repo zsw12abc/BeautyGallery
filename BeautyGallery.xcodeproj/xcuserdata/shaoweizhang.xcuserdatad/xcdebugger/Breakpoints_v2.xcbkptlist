@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeautyGallery/GalleryViewController.swift"
+            timestampString = "457627544.60002"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeautyGallery.GalleryViewController.init (BeautyGallery.GalleryViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; BeautyGallery.GalleryViewController"
+                  moduleName = "BeautyGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaoweizhang/Workspace/iOS/BeautyGallery/BeautyGallery/GalleryViewController.swift"
+                  timestampString = "457630896.916195"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeautyGallery.GalleryViewController.init (BeautyGallery.GalleryViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; BeautyGallery.GalleryViewController"
+                  moduleName = "BeautyGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaoweizhang/Workspace/iOS/BeautyGallery/BeautyGallery/GalleryViewController.swift"
+                  timestampString = "457630896.916467"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
