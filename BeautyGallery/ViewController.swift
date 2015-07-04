@@ -39,7 +39,7 @@ class ViewController: UIViewController {
             var imageName: String?
             switch index {
             case 0:
-                imageName = "fangbingbing"
+                imageName = "fanbingbing"
             case 1:
                 imageName = "libingbing"
             case 2:
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
             case 3:
                 imageName = "yangmi"
             case 4:
-                imageName = "zhouxu"
+                imageName = "zhouxun"
             default:
                 imageName = "nil"
             }

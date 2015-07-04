@@ -18,9 +18,29 @@ class GalleryViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //绑定图片
+        /*绑定图片
         if imageName != nil {
             beautyImage.image = UIImage(named: imageName!)
+        }*/
+        
+        //让 navigation bar 显示女神的名字
+        if let name = imageName{
+            beautyImage.image = UIImage(named: name)
+            
+            switch name {
+            case "fanbingbing" :
+                navigationItem.title = "范冰冰"
+            case "libingbing" :
+                navigationItem.title = "李冰冰"
+            case "wangfei" :
+                navigationItem.title = "王菲"
+            case "yangmi" :
+                navigationItem.title = "杨幂"
+            case "zhouxun" :
+                navigationItem.title = "周迅"
+            default :
+                navigationItem.title = nil
+            }
         }
     }
     

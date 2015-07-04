@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="S1P-q7-9bc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--女神画廊-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BeautyGallery" customModuleProvider="target" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                                 <animations/>
                                 <state key="normal" title="确定"/>
                                 <connections>
-                                    <segue destination="k82-CF-bmz" kind="modal" identifier="GoToGallery" id="Prh-GI-gEt"/>
+                                    <segue destination="k82-CF-bmz" kind="push" identifier="GoToGallery" id="Prh-GI-gEt"/>
                                 </connections>
                             </button>
                             <pickerView contentMode="scaleToFill" id="VbI-2W-Cwb">
@@ -46,13 +46,14 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="女神画廊" id="feU-o7-SX5"/>
                     <connections>
                         <outlet property="beautyPicker" destination="VbI-2W-Cwb" id="vte-6S-EKQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="358"/>
+            <point key="canvasLocation" x="590" y="358"/>
         </scene>
         <!--Gallery View Controller-->
         <scene sceneID="B6M-4W-t5V">
@@ -80,6 +81,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="v5e-sv-6YA"/>
                     <connections>
                         <outlet property="beautyImage" destination="g9s-Yl-R3G" id="8t0-e8-l0h"/>
                     </connections>
@@ -87,7 +89,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cXl-gO-BFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="5r3-QE-6CZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="531" y="358"/>
+            <point key="canvasLocation" x="1063" y="358"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OqF-kw-PMJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S1P-q7-9bc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ok0-Qh-ztf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="u6R-Dk-SrM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huN-No-aM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="58" y="358"/>
         </scene>
     </scenes>
     <resources>
