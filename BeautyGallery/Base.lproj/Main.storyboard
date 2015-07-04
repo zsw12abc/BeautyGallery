@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="S1P-q7-9bc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.20" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="cHu-NN-015">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.16"/>
     </dependencies>
@@ -13,22 +13,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请选择女神" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2LT-J5-fMU">
-                                <rect key="frame" x="118" y="73" width="85" height="21"/>
+                                <rect key="frame" x="118" y="83" width="85" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0ud-wr-LT8">
-                                <rect key="frame" x="145" y="358" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <state key="normal" title="确定"/>
-                                <connections>
-                                    <segue destination="k82-CF-bmz" kind="push" identifier="GoToGallery" id="Prh-GI-gEt"/>
-                                </connections>
-                            </button>
                             <pickerView contentMode="scaleToFill" id="VbI-2W-Cwb">
                                 <rect key="frame" x="0.0" y="112" width="320" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -42,6 +33,15 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0ud-wr-LT8">
+                                <rect key="frame" x="145" y="336" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="确定"/>
+                                <connections>
+                                    <segue destination="k82-CF-bmz" kind="push" identifier="GoToGallery" id="Prh-GI-gEt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="590" y="358"/>
+            <point key="canvasLocation" x="166" y="276"/>
         </scene>
         <!--Gallery View Controller-->
         <scene sceneID="B6M-4W-t5V">
@@ -63,8 +63,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="yangmi" id="g9s-Yl-R3G">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="yangmi" id="g9s-Yl-R3G">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="489"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <animations/>
                             </imageView>
@@ -75,6 +75,33 @@
                                 <state key="normal" title="返回"/>
                                 <connections>
                                     <segue destination="5r3-QE-6CZ" kind="unwind" unwindAction="close:" id="HcQ-Mt-Szl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TP2-Jm-RwG">
+                                <rect key="frame" x="135" y="497" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="twitter"/>
+                                <connections>
+                                    <action selector="twitterTapped:" destination="k82-CF-bmz" eventType="touchUpInside" id="i0Z-oR-hln"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wSO-fm-Vdy">
+                                <rect key="frame" x="249" y="497" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="weibo"/>
+                                <connections>
+                                    <action selector="weiboTapped:" destination="k82-CF-bmz" eventType="touchUpInside" id="6As-In-egU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Qcd-rb-OoK">
+                                <rect key="frame" x="20" y="497" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="facebook"/>
+                                <connections>
+                                    <action selector="facekbookTapped:" destination="k82-CF-bmz" eventType="touchUpInside" id="HUA-ut-epN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -95,12 +122,110 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cXl-gO-BFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="5r3-QE-6CZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1019" y="358"/>
+            <point key="canvasLocation" x="699" y="276"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--日本-->
+        <scene sceneID="PKk-Fm-tUj">
+            <objects>
+                <viewController id="B0z-PP-Fqk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XK7-IF-Tsx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="japanese" id="USA-pT-q6N">
+                                <rect key="frame" x="2" y="-32" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="日本" image="geisha" id="XMy-3Y-uYx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K4Q-2C-Bxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="1123"/>
+        </scene>
+        <!--韩国-->
+        <scene sceneID="dT6-gn-f2s">
+            <objects>
+                <viewController id="96O-60-mnZ" customClass="KoreanViewController" customModule="BeautyGallery" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U59-IV-A07">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="korean" id="9Il-v2-ybA">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="553"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="UYC-Kf-LGT">
+                                <rect key="frame" x="20" y="452" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="facebook"/>
+                                <connections>
+                                    <action selector="facebookTapped:" destination="96O-60-mnZ" eventType="touchUpInside" id="4oQ-Qq-lV4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jkA-z5-aoZ">
+                                <rect key="frame" x="135" y="452" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="twitter"/>
+                                <connections>
+                                    <action selector="twitterTapped:" destination="96O-60-mnZ" eventType="touchUpInside" id="Cyd-ln-fAO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4GF-Cr-U3U">
+                                <rect key="frame" x="241" y="452" width="51" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" backgroundImage="weibo"/>
+                                <connections>
+                                    <action selector="weiboTapped:" destination="96O-60-mnZ" eventType="touchUpInside" id="asx-Cz-oWU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="韩国" image="torii" id="zv9-p1-BXp"/>
+                    <connections>
+                        <outlet property="beautyImage" destination="9Il-v2-ybA" id="Imf-Uo-VzQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BTH-GO-DCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-308" y="1123"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="y6w-mE-pjf">
+            <objects>
+                <tabBarController id="cHu-NN-015" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oC7-Ao-hes">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="96O-60-mnZ" kind="relationship" relationship="viewControllers" id="ytA-AO-tCI"/>
+                        <segue destination="B0z-PP-Fqk" kind="relationship" relationship="viewControllers" id="FUc-OS-BzE"/>
+                        <segue destination="S1P-q7-9bc" kind="relationship" relationship="viewControllers" id="qVF-2V-Ead"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFW-6p-XFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-894" y="276"/>
+        </scene>
+        <!--中国-->
         <scene sceneID="OqF-kw-PMJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S1P-q7-9bc" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="中国" image="great_wall" id="9cg-mV-hac"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ok0-Qh-ztf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -114,10 +239,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huN-No-aM7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="58" y="358"/>
+            <point key="canvasLocation" x="-364" y="276"/>
         </scene>
     </scenes>
     <resources>
+        <image name="facebook" width="51" height="51"/>
+        <image name="geisha" width="25" height="25"/>
+        <image name="great_wall" width="25" height="25"/>
+        <image name="japanese" width="320" height="568"/>
+        <image name="korean" width="320" height="568"/>
+        <image name="torii" width="25" height="25"/>
+        <image name="twitter" width="51" height="51"/>
+        <image name="weibo" width="51" height="51"/>
         <image name="yangmi" width="320" height="568"/>
     </resources>
 </document>

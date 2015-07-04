@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669D15031B47B148005EF749 /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669D15021B47B148005EF749 /* KoreanViewController.swift */; };
 		66A608781B46BB4400516BC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A608771B46BB4400516BC0 /* AppDelegate.swift */; };
 		66A6087A1B46BB4400516BC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A608791B46BB4400516BC0 /* ViewController.swift */; };
 		66A6087D1B46BB4400516BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A6087B1B46BB4400516BC0 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		669D15021B47B148005EF749 /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 		66A608741B46BB4400516BC0 /* BeautyGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeautyGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A608771B46BB4400516BC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66A608791B46BB4400516BC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				66A608831B46BB4400516BC0 /* Info.plist */,
 				66A608A51B46D1AD00516BC0 /* ViewControllerExtension.swift */,
 				66A608A71B46D77500516BC0 /* GalleryViewController.swift */,
+				669D15021B47B148005EF749 /* KoreanViewController.swift */,
 			);
 			path = BeautyGallery;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66A6087A1B46BB4400516BC0 /* ViewController.swift in Sources */,
+				669D15031B47B148005EF749 /* KoreanViewController.swift in Sources */,
 				66A608A81B46D77500516BC0 /* GalleryViewController.swift in Sources */,
 				66A608781B46BB4400516BC0 /* AppDelegate.swift in Sources */,
 				66A608A61B46D1AD00516BC0 /* ViewControllerExtension.swift in Sources */,
@@ -489,6 +493,7 @@
 				66A6089E1B46BB4400516BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A6089F1B46BB4400516BC0 /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +502,7 @@
 				66A608A11B46BB4400516BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A608A21B46BB4400516BC0 /* Build configuration list for PBXNativeTarget "BeautyGalleryUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +511,7 @@
 				66A608A41B46BB4400516BC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeautyGallery/KoreanViewController.swift"
+            timestampString = "457683521.428682"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "KoreanViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeautyGallery.KoreanViewController.init (BeautyGallery.KoreanViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; BeautyGallery.KoreanViewController"
+                  moduleName = "BeautyGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaoweizhang/Workspace/iOS/BeautyGallery/BeautyGallery/KoreanViewController.swift"
+                  timestampString = "457683595.520902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeautyGallery.KoreanViewController.init (BeautyGallery.KoreanViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; BeautyGallery.KoreanViewController"
+                  moduleName = "BeautyGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaoweizhang/Workspace/iOS/BeautyGallery/BeautyGallery/KoreanViewController.swift"
+                  timestampString = "457683595.521123"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
