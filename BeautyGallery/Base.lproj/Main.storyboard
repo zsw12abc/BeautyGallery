@@ -81,7 +81,13 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="v5e-sv-6YA"/>
+                    <navigationItem key="navigationItem" id="v5e-sv-6YA">
+                        <barButtonItem key="rightBarButtonItem" title="分享" id="b0f-7i-L3v">
+                            <connections>
+                                <action selector="shareTapped:" destination="k82-CF-bmz" id="0dD-gN-mwT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="beautyImage" destination="g9s-Yl-R3G" id="8t0-e8-l0h"/>
                     </connections>
@@ -89,7 +95,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cXl-gO-BFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="5r3-QE-6CZ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1063" y="358"/>
+            <point key="canvasLocation" x="1019" y="358"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OqF-kw-PMJ">
